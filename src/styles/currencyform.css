@@ -1,0 +1,47 @@
+.currencyform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background: #fd5;
+    padding: 80px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+.formControl {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select {
+    width: 150px;
+}
+
+.amount {
+    width: 150px;
+    padding: 10px;
+}
+
+.submitbtn {
+    padding: 10px 30px;
+    border: none;
+    font-weight: bold;
+    background: rgb(68, 76, 220);
+    color: white;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px;
+    gap: 15px;
+}
